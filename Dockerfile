@@ -15,6 +15,7 @@ RUN apt-get update \
     nano \
     ninja-build \
     pkg-config \
+    pkgconf:arm64 \
     pkgconf-bin:arm64 \ 
     python3-venv \
     tree \
