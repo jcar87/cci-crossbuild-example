@@ -16,7 +16,7 @@ RUN apt-get update \
     ninja-build \
     pkg-config \
     pkgconf:arm64 \
-    pkgconf-bin:arm64 \ 
+    pkgconf-bin:amd64 \ 
     python3-venv \
     tree \
     wget \
