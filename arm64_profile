@@ -1,0 +1,12 @@
+[settings]
+arch=armv8
+build_type=Release
+compiler=gcc
+compiler.cppstd=gnu17
+compiler.libcxx=libstdc++11
+compiler.version=13
+os=Linux
+
+[conf]
+tools.build:compiler_executables={'c':'aarch64-linux-gnu-gcc','cpp':'aarch64-linux-gnu-g++'}
+tools.gnu:pkg_config=/usr/bin/aarch64-linux-gnu-pkgconf
